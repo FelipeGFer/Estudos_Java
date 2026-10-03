@@ -1,0 +1,74 @@
+Expressões comparativas
+
+Expressão =Resultado=> valor verdade
+
+5 > 10 = Falso
+
+Operadores comparativos
+
+Operador 	Significado
+> 		Maior
+< 		Menor
+>=		Maior Igual
+<=		Menor Igual
+==		Igual
+!=		diferente
+
+Apenas o = é atribuição de valor a uma variavel
+
+Exemplos:
+
+(x = 5)
+
+X > 0		Verdadeiro
+
+x == 3		Falso
+
+10 <= 30 	Verdadeiro
+
+X != 2		Verdadeiro
+
+_____________________________________
+
+Expressões Logicas:
+
+Expressão =Resultado=> valor verdade
+
+Operadores Lógicos:
+
+Operador	Significado
+
+&&		E (AND)
+||		OU (OR)
+!		Não (NOT)
+
+
+E
+quando E para ser verdadeiro, todas as condições unidas pelo operador forem verdadeiras
+
+Ex: X = 5
+
+X<= 20 && X == 10 ==> será falso
+   V	     F
+
+X > 3 && X != 3 ==> Verdadeiro
+
+OU
+quando OU ser verdadeiro, pelo menos uma condição deve ser verdadeira
+Ex: X = 5
+
+x == 10 || x <= 20 ==> será verdadeiro
+X > 0 || X != 3 ==> será verdadeiro
+
+
+Não
+quando NÃO, inverte a condição
+Ex: X = 5
+
+!(X == 10) ==> Verdadeiro
+
+!(x>=2) ==> Falso
+
+!(x <= 20 && X == 10) ==> Verdadeiro
+      V         F
+           F

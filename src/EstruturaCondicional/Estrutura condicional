@@ -1,0 +1,29 @@
+Conceito:
+
+É uma estruta de controle que permite definir que somente um bloco de comandos será executado dependendo de uma condição
+
+                    Condição
+               V                F
+      Bloco de comnando    Bloco de comnando
+
+      Sintaxe simples:
+
+      if( <condição> ){
+            <comando 1>
+            <comando 2>
+      }
+V executa o bloco de comandos
+F Pula o bloco de comandos
+
+        Sintaxe Composta
+
+        if( <condição> ){
+             <comando 1>
+             <comando 2>
+        }else {
+            <comando 3>
+            <comando 4>
+        }
+V executa o bloco de comandos if
+F executa o bloco de comando else
+
